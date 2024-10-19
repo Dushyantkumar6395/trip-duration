@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # Project: Data Science CI/CD Pipeline with DVC, Docker, and AWS
+=======
+A complete end-to-end Machine Learning project to build an end-to-end working app for the NYC taxi duration challenge.
+>>>>>>> 4bcde31f4c5ebea3a055695e0e13b02d334de709
 
 ![Project Architecture](./my-project-architecture.png)
 
@@ -9,6 +13,7 @@ This project implements a Continuous Integration and Continuous Deployment (CI/C
 
 ## Architecture Overview
 
+<<<<<<< HEAD
 The project workflow follows these key steps:
 
 ### 1. **Creating the Project**
@@ -126,3 +131,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **DVC** for data versioning.
 - **GitHub Actions** for continuous integration.
 - **AWS** for cloud infrastructure and deployment.
+=======
+
+>>>>>>> 4bcde31f4c5ebea3a055695e0e13b02d334de709

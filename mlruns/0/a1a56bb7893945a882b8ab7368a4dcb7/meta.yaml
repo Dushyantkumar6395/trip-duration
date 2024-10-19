@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/trip-duration/mlruns/0/a1a56bb7893945a882b8ab7368a4dcb7/artifacts
+end_time: 1729255568638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1a56bb7893945a882b8ab7368a4dcb7
+run_name: XGB Final Model
+run_uuid: a1a56bb7893945a882b8ab7368a4dcb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729255555515
+status: 3
+tags: []
+user_id: PC

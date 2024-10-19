@@ -1,7 +1,7 @@
 trip-duration
 ==============================
 
-A sample ML project to build an end-to-end working app for the NYC taxi duration challenge.
+A complete end-to-end Machine Learning project to build an end-to-end working app for the NYC taxi duration challenge.
 
 Project Organization
 ------------

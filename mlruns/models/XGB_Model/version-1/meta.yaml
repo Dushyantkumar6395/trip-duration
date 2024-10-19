@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1729317018106
+current_stage: None
+description: ''
+last_updated_timestamp: 1729317018106
+name: XGB_Model
+run_id: de51690ac6a74542a7b05c3c16a33fd8
+run_link: ''
+source: file:///C:/trip-duration/mlruns/0/de51690ac6a74542a7b05c3c16a33fd8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/trip-duration/mlruns/0/de51690ac6a74542a7b05c3c16a33fd8/artifacts/model
+user_id: null
+version: 1

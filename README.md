@@ -1,9 +1,9 @@
 
-<<<<<<< HEAD
+
 # Project: Data Science CI/CD Pipeline with DVC, Docker, and AWS
-=======
+
 A complete end-to-end Machine Learning project to build an end-to-end working app for the NYC taxi duration challenge.
->>>>>>> 4bcde31f4c5ebea3a055695e0e13b02d334de709
+
 
 ![Project Architecture](./my-project-architecture.png)
 
@@ -13,7 +13,7 @@ This project implements a Continuous Integration and Continuous Deployment (CI/C
 
 ## Architecture Overview
 
-<<<<<<< HEAD
+
 The project workflow follows these key steps:
 
 ### 1. **Creating the Project**
@@ -65,72 +65,3 @@ The project workflow follows these key steps:
 - Git and GitHub
 - CML (Continuous Machine Learning) for CI
 
-### Step-by-Step Instructions
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Dushyantkumar6395/trip-duration.git
-   cd trip-duration
-   ```
-
-2. **Initialize DVC**:
-   - Set up DVC for data tracking:
-     ```bash
-     dvc init
-     dvc remote add -d myremote s3://your-bucket-name/path
-     ```
-
-3. **Add Data**:
-   - Add raw data and track it with DVC:
-     ```bash
-     dvc add data/raw
-     git add data.dvc .gitignore
-     git commit -m "Added raw data"
-     ```
-
-4. **Run EDA**:
-   - Use the provided Jupyter notebook to explore the data:
-     ```bash
-     jupyter notebook notebooks/eda.ipynb
-     ```
-
-5. **Run DVC Pipeline**:
-   - Execute the data processing and model training stages:
-     ```bash
-     dvc repro
-     ```
-
-6. **Set Up CI/CD**:
-   - Follow the instructions in `.github/workflows/ci.yml` to configure continuous integration and deployment via GitHub Actions.
-
-7. **Deploy to EC2**:
-   - Containerize the application using Docker and deploy it to an AWS EC2 instance:
-     ```bash
-     docker build -t trip-duration .
-     docker push <ecr-repo-url>/trip-duration
-     ```
-
-## Key Features
-
-- **Data Versioning with DVC**: Ensures reproducibility of data and model artifacts across various stages of the pipeline.
-- **Automated Model Training**: Uses CI to automatically run the model training process whenever new code or data is pushed.
-- **Deployment with Docker and AWS**: Provides a scalable solution for model deployment on EC2, ensuring seamless transitions between model versions.
-
-## Future Work
-
-- Add automated hyperparameter tuning.
-- Extend support for multi-cloud deployment (e.g., Azure, GCP).
-- Incorporate monitoring solutions for model performance post-deployment.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- **DVC** for data versioning.
-- **GitHub Actions** for continuous integration.
-- **AWS** for cloud infrastructure and deployment.
-=======
-
->>>>>>> 4bcde31f4c5ebea3a055695e0e13b02d334de709

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/trip-duration/mlruns/0/3d47c1eed2af4a93a7351f017c731ea9/artifacts
+end_time: 1740569173729
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d47c1eed2af4a93a7351f017c731ea9
+run_name: XGBRegressor
+run_uuid: 3d47c1eed2af4a93a7351f017c731ea9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740569152484
+status: 3
+tags: []
+user_id: PC
